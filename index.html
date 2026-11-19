@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="es-CL"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#21483e"><title>Entreclases · Encuentra tu espacio</title><meta name="description" content="Prototipo de recomendación de 20 espacios de Campus San Joaquín para estudiar, descansar o comer."><link rel="stylesheet" href="styles.css"></head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header><div class="wrap top"><a class="brand" href="#inicio" aria-label="Entreclases, inicio"><span class="brandmark" aria-hidden="true">✳</span>entreclases<span class="branddot">.</span></a>
+<nav aria-label="Navegación principal"><a data-nav="inicio" href="#inicio">Recomendaciones</a><a data-nav="explorar" href="#explorar">Explorar espacios</a></nav>
+<button id="demo-open" class="demobutton" aria-haspopup="dialog"><i></i><span>Simulación</span><b id="clock"></b></button></div></header>
+<main id="main" class="wrap" tabindex="-1"></main>
+<footer><div class="wrap foot"><span class="footbrand">entreclases.</span><span>Campus San Joaquín · Datos simulados</span><button id="how">Cómo funciona</button></div></footer>
+<dialog id="modal"><div id="modal-body"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+<script src="catalogo.js"></script><script src="model.js"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="resenas.js"></script><script src="app.js"></script></body></html>
